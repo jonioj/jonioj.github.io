@@ -46,3 +46,80 @@
     </div>
 </body>
 </html>
+In this version, I've made the following changes:
+
+Changed the background color to a lighter shade (#f5f5f5).
+Added a border radius of 10px to the container for rounded corners.
+Changed the box shadow to be slightly more pronounced.
+Styled the headings and paragraphs with different colors for better readability.
+Added a separator and some spacing between the contact information for better visual separation.
+User
+add link to youtube and instagram with icons
+ChatGPT
+To add links to YouTube and Instagram with icons, you can use Font Awesome icons and wrap them in anchor tags. Here's how you can modify the HTML:
+
+html
+Copy code
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Information</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+        .container {
+            max-width: 600px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        p {
+            margin-bottom: 10px;
+            color: #666;
+        }
+        .contact-info {
+            border-top: 1px solid #ccc;
+            padding-top: 15px;
+            margin-top: 15px;
+        }
+        .social-icons {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .social-icons a {
+            color: #666;
+            text-decoration: none;
+            margin: 0 10px;
+            font-size: 24px;
+        }
+        .social-icons a:hover {
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Informacje Kontaktowe</h1>
+        <div class="contact-info">
+            <p><strong>Name:</strong> Jonasz Łaba </p>
+            <p><strong>Email:</strong> jonaszlaba@gmail.com</p>
+        </div>
+        <div class="social-icons">
+            <a href="https://www.instagram.com/jonasz_pl" target="_blank"><i class="fab fa-instagram"></i></a>
+        </div>
+    </div>
+</body>
+</html>
