@@ -8,113 +8,227 @@
   </head>
   <body>
     <header>
-      <h1>Jonasz Łaba</h1>
-      <p>Data Engineer | Python Developer</p>
+      <div class="header-top">
+        <img
+          src="data/jonasz.jpeg"
+          alt="Jonasz Laba profile photo"
+          class="profile-photo"
+        />
+        <div class="header-text">
+          <h1>Jonasz Łaba</h1>
+          <p>Data Engineer | Software Developer | Biomedical Engineering Researcher</p>
+        </div>
+      </div>
       <nav class="navigation">
-        <a href="#home" class="active">Home</a>
-        <a href="#programming">Programming</a>
-        <a href="#english">English</a>
-        <a href="#workouts">Workouts</a>
+        <a href="#about" class="active">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#education">Education</a>
+        <a href="#research">Research</a>
+        <a href="#interests">Interests</a>
       </nav>
     </header>
 
-    <main id="home">
-      <section>
+    <main>
+      <section id="about">
         <h2>About Me</h2>
         <p>
-          Hi! I'm a Data Engineer with a passion for building efficient data
-          pipelines and solving complex problems. I specialize in Python
-          development and data processing.
+          I am an experienced Data Engineer with a strong background in building
+          robust cloud-native data pipelines on GCP and optimizing large-scale
+          medical data workflows. I focus on data quality, performance, and
+          practical business impact across analytics and production systems.
+        </p>
+        <p>
+          I work mainly with Python, SQL, BigQuery, Postgres, Databricks, and
+          Spark, and I build solutions in Agile environments with CI/CD and
+          Git-based workflows.
         </p>
       </section>
 
-      <section>
+      <section id="skills">
         <h2>Skills</h2>
-        <ul>
-          <li>Python</li>
-          <li>Apache Airflow</li>
-          <li>Apache Spark</li>
-          <li>SQL</li>
-          <li>Data Engineering</li>
-          <li>ETL Pipeline Development</li>
-        </ul>
-      </section>
-
-      <section>
-        <h2>Projects</h2>
-        <ul>
-          <li>Data Pipeline Automation with Apache Airflow</li>
-          <li>Big Data Processing with Apache Spark</li>
-          <li>Data Warehouse Development</li>
-        </ul>
-      </section>
-
-      <section id="programming">
-        <h2>Programming Journey</h2>
-        <div class="subsection">
-          <h3>Technologies</h3>
-          <ul>
-            <li>Python (Advanced)</li>
-            <li>SQL (Advanced)</li>
-            <li>Apache Airflow</li>
-            <li>Apache Spark</li>
-            <li>Git</li>
-          </ul>
-        </div>
-        <div class="subsection">
-          <h3>Learning Resources</h3>
-          <ul>
-            <li>Current Books I'm Reading</li>
-            <li>Favorite Online Courses</li>
-            <li>Useful Programming Links</li>
-          </ul>
+        <div class="skills-layout">
+          <div class="subsection">
+            <h3>Technologies I Work With</h3>
+            <ul>
+              <li>Python</li>
+              <li>SQL</li>
+              <li>BigQuery</li>
+              <li>Postgres</li>
+              <li>Databricks</li>
+              <li>PySpark</li>
+              <li>Apache Airflow</li>
+              <li>GCP (BigQuery, GCS, Cloud Functions)</li>
+              <li>Kafka</li>
+              <li>Node.js</li>
+            </ul>
+          </div>
+          <div class="subsection">
+            <h3>Key Skills</h3>
+            <ul>
+              <li>ETL and Data Modeling</li>
+              <li>Anomaly Detection and Data Quality Testing</li>
+              <li>LLM Applications for Clinical Data Extraction</li>
+              <li>PHI Tokenization and Secure Data Sharing</li>
+              <li>Cloud-native Data Pipeline Design</li>
+              <li>Cross-functional Collaboration with Clinical Teams</li>
+            </ul>
+          </div>
         </div>
       </section>
 
-      <section id="english">
-        <h2>English Learning</h2>
+      <section id="experience">
+        <h2>Experience</h2>
         <div class="subsection">
-          <h3>Learning Progress</h3>
+          <h3>COTA | Data Engineer, Software Developer</h3>
+          <p><strong>Jan 2024 - Present | Remote, USA</strong></p>
           <ul>
-            <li>Current Level</li>
-            <li>Learning Goals</li>
-            <li>Study Materials</li>
+            <li>
+              Designed and maintained scalable batch ETL pipelines on GCP for
+              large medical datasets.
+            </li>
+            <li>
+              Built analytics and data models in BigQuery, improving data
+              quality through testing and anomaly detection.
+            </li>
+            <li>
+              Developed a production service that uses LLMs to extract clinical
+              data from medical reports.
+            </li>
+            <li>
+              Built a PHI tokenization service for compliant and secure data
+              exchange between healthcare providers.
+            </li>
           </ul>
         </div>
         <div class="subsection">
-          <h3>Resources</h3>
+          <h3>Clebre | Data Engineer (Python, Databricks)</h3>
+          <p><strong>Dec 2019 - May 2022 | Warsaw, Poland</strong></p>
           <ul>
-            <li>Favorite Learning Apps</li>
-            <li>Useful Websites</li>
-            <li>Practice Partners</li>
+            <li>
+              Designed Databricks and PySpark ETL workflows for large-scale
+              sleep study data processing.
+            </li>
+            <li>
+              Implemented anomaly detection for streaming sensor data.
+            </li>
+            <li>
+              Developed ML algorithms for sleep event detection: apnea,
+              hypopnea, snoring, and body position.
+            </li>
+            <li>
+              Worked closely with clinicians to improve detection quality and
+              clinical validity.
+            </li>
+          </ul>
+        </div>
+        <div class="subsection">
+          <h3>Warsaw University of Technology | PhD Researcher</h3>
+          <p><strong>Feb 2022 - Feb 2026 | Warsaw, Poland</strong></p>
+          <ul>
+            <li>
+              Conducted research in causal analysis of respiratory and ECG
+              signals.
+            </li>
+            <li>
+              Designed and validated Pneumonitor 2, a biomedical device for
+              high-resolution cardiorespiratory monitoring.
+            </li>
+            <li>
+              Co-authored peer-reviewed papers and led methodology design.
+            </li>
+            <li>
+              Led lab sessions on ECG amplifiers and impedance rheography and
+              supervised ML student projects.
+            </li>
           </ul>
         </div>
       </section>
 
-      <section id="workouts">
-        <h2>Workout Tracking</h2>
+      <section id="education">
+        <h2>Education</h2>
         <div class="subsection">
-          <h3>Workout Routine</h3>
+          <h3>Warsaw University of Technology</h3>
           <ul>
-            <li>Weekly Schedule</li>
-            <li>Exercise Types</li>
-            <li>Progress Tracking</li>
+            <li>PhD in Biomedical Engineering (2022 - 2026)</li>
+            <li>Master's in Biomedical Engineering (2020 - 2022)</li>
+            <li>Bachelor's in Biomedical Engineering (2017 - 2019)</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="research">
+        <h2>Selected Research Papers</h2>
+        <div class="subsection">
+          <ul>
+            <li>
+              <strong>
+                <a
+                  href="https://doi.org/10.1007/s11325-022-02567-5"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Supine sleep patterns as a part of phenotyping patients with
+                  sleep apnea-A pilot study</a
+                >
+              </strong>
+              - Sleep and Breathing (2022), second author.
+            </li>
+            <li>
+              <strong>
+                <a
+                  href="https://doi.org/10.3390/diagnostics12051195"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Sleep position detection with a wireless audio-motion
+                  sensor-A validation study</a
+                >
+              </strong>
+              - Diagnostics (2022), data QA, signal processing, and co-author.
+            </li>
+            <li>
+              <strong>
+                <a
+                  href="https://www.medrxiv.org/content/10.1101/2023.06.04.23290939v2"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Evaluation of the performance of GPT-3.5 and GPT-4 on the
+                  Medical Final Examination</a
+                >
+              </strong>
+              - medRxiv (2023), researcher and co-author.
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="interests">
+        <h2>Interests</h2>
+        <div class="subsection">
+          <h3>Professional Interests</h3>
+          <ul>
+            <li>Cloud-native data engineering and scalable ETL architecture</li>
+            <li>Medical AI and LLM-based healthcare applications</li>
+            <li>Data quality engineering and anomaly detection</li>
+            <li>Biomedical signal processing and causal ML methods</li>
           </ul>
         </div>
         <div class="subsection">
-          <h3>Goals</h3>
+          <h3>Working Style</h3>
           <ul>
-            <li>Current Goals</li>
-            <li>Achievements</li>
-            <li>Future Plans</li>
+            <li>Cross-functional collaboration with clinical teams</li>
+            <li>Production-first mindset and measurable impact</li>
+            <li>Continuous learning and mentoring in technical environments</li>
           </ul>
         </div>
       </section>
 
       <section class="social-links">
         <h2>Connect with Me</h2>
+        <a href="mailto:jonaszlaba@gmail.com">Email</a>
         <a href="https://github.com/jonioj" target="_blank">GitHub</a>
-        <a href="https://www.linkedin.com/in/jonasz-łaba" target="_blank"
+        <a
+          href="https://www.linkedin.com/in/jonasz-%C5%82aba-60b0b91b3/"
+          target="_blank"
+          rel="noopener noreferrer"
           >LinkedIn</a
         >
       </section>
